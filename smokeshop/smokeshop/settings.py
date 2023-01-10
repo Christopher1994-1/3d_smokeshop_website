@@ -116,7 +116,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+
+# find the path to the static file
+URL = "C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/static/css/"
+
+
+STATIC_URL = URL
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

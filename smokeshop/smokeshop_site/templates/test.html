@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+<title>TESTING</title>
+
+
+
+{% load static %}
+<link rel="stylesheet" href="{% static '/css/test.css' %}">
+
+    <div class="smoking-ad">
+
+        <div class="main-ad-background">
+            <img src="{% static 'images/smoking-1100x733.jpg' %}" alt="">
+        </div>
+
+
+        <div class="ad-and-offer">
+            <img src="{% static 'images/ad.png' %}" alt="">
+            <p>Buy one get one free with limited time offer!</p>
+        </div>
+
+    </div>
+
+
+{% endblock %}

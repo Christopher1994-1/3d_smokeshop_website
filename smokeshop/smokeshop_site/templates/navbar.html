@@ -1,0 +1,43 @@
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+
+<header>
+    <div class="main-navrbar-container">
+
+    <a href="#" class="logo">3D Smoke Shop</a>
+        
+        <!-- menu bar for when in smaller screens -->
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Find Us</a></li>
+                <li><a href="#">Products +</a>
+                    <ul>
+                        <!-- list of products -->
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li><a href="#">Product 3</a></li>
+                        <li><a href="#">Product 4</a></li>
+                        <li><a href="#">Product 5</a></li>
+                        <li><a href="#">Product 6</a></li>
+                        <li><a href="#">Product 7</a></li>
+                        <li><a href="#">Product 8</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+</header>
+<br><br><br><br><br><br>
+
+{% endblock %}

@@ -4,10 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block title %} {% endblock %}
+    <script src="https://kit.fontawesome.com/89bc05284d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Including the navbar -->
+    {% block navbar %}
+        {% include 'navbar.html' %}
+    {% endblock %}
 
 
+<!-- Actual content of website -->
 {% block content %}
 
 
@@ -15,6 +21,10 @@
 {% endblock %}
 
 
+    <!-- Including the footer -->
+    {% block footer %}
+        {% include 'footer.html' %}
+    {% endblock %}
 
 </body>
 </html>

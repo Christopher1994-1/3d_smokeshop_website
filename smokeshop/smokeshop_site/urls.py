@@ -1,6 +1,20 @@
 from django.urls import path
 from . import views
 
+# Path Converters
+# int: Integers
+# str: Strings
+# path: whole urls /
+# slug: hyphen-and_underscores_stuff
+# UUID: universally unique identifier
+
+
 urlpatterns = [
-    path('', views.home, name='home')
+    
+    # Path for the home page
+    path('', views.home, name='home'),
+    
+    # Path for the test page
+    path('test/', views.test, name='test')
+
 ]

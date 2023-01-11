@@ -1,0 +1,46 @@
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/footer.css' %}">
+
+
+<div class="footer">
+
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">All Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <!-- Put form stuff here -->
+            <div class="subscribe-form-and-button">
+                <div id="subscribe-form">
+                    {{ form }}
+                  </div>
+                  <div id="subscribe-button">
+                    <input type="submit" name="Subscribe" class="subscribe-btn" value="Subscribe">
+                </div>
+    
+              </div>
+        </form>
+    </div>
+
+    <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>123, YXS Road, BSK 3<br>Arlington, Texas</p>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

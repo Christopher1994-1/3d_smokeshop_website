@@ -11,9 +11,11 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent 
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -118,12 +120,23 @@ USE_TZ = True
 
 
 # find the path to the static file
-URL = "C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/static/css/"
+
+# STATIC_URL = "C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/static/"
+
+# TK = "C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/"
+
+# STATICFILES_DIRS = [
+#     os.path.join(TK, 'static')
+# ]
 
 
-STATIC_URL = URL
+STATIC_URL = 'C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/static/'
 
+TK = 'C:/Users/yklac/Desktop/projects/git_projects/client_sites/three_d_website/smokeshop/smokeshop_site/'
 
+STATICFILES_DIRS = [
+    os.path.join(TK, 'static')
+]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 

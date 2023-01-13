@@ -20,7 +20,7 @@
     left: 0; 
     height: 15%;
     right: 0;
-    background: rgb(255, 255, 255); /* background color for the narbar */
+    background: rgb(32, 32, 32); /* background color for the narbar */
     box-shadow: 0 5px 1px rgba(0,0,0,.1);
     padding: 0px 7%;
     display: flex;
@@ -33,7 +33,7 @@
 .main-navrbar-container .logo {
     font-weight: bolder;
     font-size: 25px;
-    color: #333;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -55,14 +55,15 @@
 .main-navrbar-container .navbar ul li a {
     font-size: 20px;
     padding: 20px;
-    color: #333;
+    color: rgb(255, 255, 255);
     display: block;
+    text-decoration: none;
 }
 
 
 /* Giving navbar options hover effects */
 .main-navrbar-container .navbar ul li a:hover {
-    background: #333;
+    background: rgb(30, 34, 95);
     color: white;
     border-radius: 40px;
 }
@@ -77,7 +78,7 @@
     position: absolute;
     left: 0;
     width: 200px;
-    background: white;
+    background: rgb(32, 32, 32);;
     border: 2px solid black;
     display: none;
 }
@@ -121,6 +122,7 @@
     /* displaying the menu */
     .main-navrbar-container label {
         display: initial;
+        color: white;
     }
 
 
@@ -129,7 +131,7 @@
         top:100%;
         left: 0;
         right: 0;
-        background: white;
+        background: rgb(32, 32, 32);;
         border: 2px solid #333;
         border-top:1px solid rgba(0,0,0,.1);
         display: none;
@@ -148,7 +150,7 @@
 
 
     .main-navrbar-container .navbar ul li ul li {
-        background: #eee;
+        background: rgb(32, 32, 32);;
     }
 
     .main-navrbar-container .navbar ul li ul li ul {

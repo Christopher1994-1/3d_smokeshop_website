@@ -15,6 +15,9 @@ urlpatterns = [
     path('', views.home, name='home'),
     
     # Path for the test page
-    path('test/', views.test, name='test')
+    path('test/', views.test, name='test'),
+    
+    # Path for the update time 
+    path('get_remaining_time/', views.get_remaining_time, name='get_remaining_time'),
 
 ]

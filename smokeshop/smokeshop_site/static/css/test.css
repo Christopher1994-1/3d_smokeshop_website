@@ -1,0 +1,38 @@
+/* css code for the main container for image and stuff */
+.enjoy {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* css code for the image */
+.enjoy img {
+    width: 100%;
+}
+
+
+
+/* css code for the stuff inside image  */
+.enjoy-inner-stuff {
+    border: 2px solid black;
+    position: absolute;
+    width: 40%;
+    top: 315%;
+    right: 50%;
+    padding: 20px;
+}
+
+
+/* css code for the stuff inside image, header */
+.enjoy-inner-stuff h1 {
+    margin-bottom: 2%;
+    color: white;
+}
+
+
+/* css code for the stuff inside image paragraph */
+.enjoy-inner-stuff p {
+    margin-bottom: 3%;
+    color: white;
+}

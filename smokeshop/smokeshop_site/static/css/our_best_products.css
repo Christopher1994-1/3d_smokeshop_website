@@ -1,0 +1,399 @@
+/* css code for the 'our best products' header */
+#our-best-products-h1 {
+    background: white;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+/* css code for the main container for all products */
+.our-best-products {
+    margin: auto;
+    border-radius: 20px;
+    width: 90%;
+    padding: 20px;
+}
+
+
+
+/* CSS CODE OF FOR THE FIRST PAIR OF PRODUCTS */
+
+
+/* css code for the first pair of products */
+.first-product-pair {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+/* css code for the first product container  */
+.product-one {
+    width: 80%;
+    padding: 10px;
+}
+
+/* css code for product 1 img */
+.product-one img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 1 paragraph */
+.product-one p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-1 h3 or price */
+.product-one h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-one h2 or title */
+.product-one h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+/* css code for the second product container  */
+.product-two {
+    width: 80%;
+    padding: 10px;
+}
+/* css code for product 2 img */
+.product-two img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 2 paragraph */
+.product-two p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-2 h3 or price */
+.product-two h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-2 h2 or title */
+.product-two h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+
+/* css code for the third product container  */
+.product-three {
+    width: 80%;
+    padding: 10px;
+}
+/* css code for product 3 img */
+.product-three img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 3 paragraph */
+.product-three p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-3 h3 or price */
+.product-three h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-2 h2 or title */
+.product-three h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS CODE FOR THE SECOND PAIR OF PRODUCTS */
+
+
+
+
+/* css code for the first pair of products */
+.second-product-pair {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* css code for the fourth product container  */
+.product-four {
+    width: 80%;
+    padding: 10px;
+}
+
+/* css code for product 4 img */
+.product-four img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 4 paragraph */
+.product-four p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-4 h3 or price */
+.product-four h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-4 h2 or title */
+.product-four h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+/* css code for the fifth product container  */
+.product-five {
+    width: 80%;
+    padding: 10px;
+}
+/* css code for product 2 img */
+.product-five img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 2 paragraph */
+.product-five p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-5 h3 or price */
+.product-five h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-5 h2 or title */
+.product-five h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+
+/* css code for the sixth product container  */
+.product-six {
+    width: 80%;
+    padding: 10px;
+}
+/* css code for product 3 img */
+.product-six img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* css code for the product 3 paragraph */
+.product-six p {
+    width: 90%;
+    margin: auto;
+    font-size: 70%;
+    color: white;
+}
+/* css code for the product-6 h3 or price */
+.product-six h3 {
+    color: white;
+    margin-top: 5px;
+}
+/* css code for the product-6 h2 or title */
+.product-six h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+
+/* CSS CODE FOR WHEN THE SCREEN IS 910PX */
+@media (max-width:910px){
+    .our-best-products {
+        width: 100%;
+    }
+
+    .first-product-pair {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .product-one {
+        width: 100%;
+    }
+    .product-two {
+        width: 100%;
+    }
+    .product-three {
+        width: 100%;
+    }
+
+    .second-product-pair {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* CSS CODE FOR WHEN THE SCREEN IS 889PX */
+@media (max-width:889px){
+    .our-best-products {
+        width: 100%;
+    }
+
+    .first-product-pair {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .product-one {
+        width: 100%;
+    }
+    .product-two {
+        width: 100%;
+    }
+    .product-three {
+        width: 100%;
+    }
+
+    .second-product-pair {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+/* CSS CODE FOR WHEN THE SCREEN IS 735PX */
+@media (max-width:735px){
+    .our-best-products {
+        width: 100%;
+    }
+
+    .first-product-pair {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .product-one {
+        width: 100%;
+    }
+    .product-two {
+        width: 100%;
+    }
+    .product-three {
+        width: 100%;
+    }
+
+    .second-product-pair {
+        width: 100%;
+    }
+
+}
+
+
+/* CSS CODE FOR WHEN THE SCREEN IS 661PX */
+@media (max-width:661px){
+    .our-best-products {
+        width: 100%;
+    }
+
+    .first-product-pair {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .product-one {
+        width: 100%;
+    }
+    .product-two {
+        width: 100%;
+    }
+    .product-three {
+        width: 100%;
+    }
+
+    .second-product-pair {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* CSS CODE FOR MOBILE SCREEN */
+@media (max-width:591px){
+    .our-best-products {
+        width: 100%;
+    }
+
+    .first-product-pair {
+        width: 100%;
+        margin-bottom: 25%;
+    }
+    .product-one {
+        width: 100%;
+    }
+    .product-two {
+        width: 100%;
+    }
+    .product-three {
+        width: 100%;
+    }
+
+    .second-product-pair {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+}

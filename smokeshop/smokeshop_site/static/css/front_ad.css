@@ -163,7 +163,6 @@
     .smoking-ad-time-offer #ad-p-1 {
         font-size: 15px;
         width: 100%;
-        border: 2px solid black;
     }
 
     .smoking-ad-time-offer #ad-p-2 {
@@ -256,6 +255,21 @@
         height: 66%;
         right: 4%;
         top: 4%;
+    }
+
+
+    #ad-p-3 {
+        display: none;
+    }
+    
+    
+    #ad-small {
+        display: none;
+    }
+
+
+    .smoking-ad-main-container {
+        box-shadow: none;
     }
 
 }

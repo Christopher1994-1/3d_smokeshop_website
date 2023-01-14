@@ -49,7 +49,7 @@
 
 .col-1 a:hover {
     text-decoration: underline;
-    color: #a12929;
+    color: #3529a1;
 }
 
 
@@ -100,6 +100,16 @@
     font-size: 22px;
     margin: 10px;
     cursor: pointer;
+}
+
+
+
+/* css code for the copyright thing */
+#copy-right-stuff {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
 

@@ -34,11 +34,29 @@
     margin-bottom: 10px;
     width: 60%;
     height: 60%;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-1 img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product-1 h2 */
 .product-1 h2 {
     color: white;
     text-shadow: 3px 3px black;
+}
+/* css code for product-1 button  */
+.product-1 button {
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* css code for product-1 button a */
+.product-1 button a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -62,13 +80,31 @@
     margin-bottom: 10px;
     width: 60%;
     height: 60%;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-2 img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product-2 h2 */
 .product-2 h2 {
     color: white;
     text-shadow: 3px 3px black;
 }
-
+/* css code for product-2 button  */
+.product-2 button {
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* css code for product-2 button a */
+.product-2 button a{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
 
 
 
@@ -89,13 +125,75 @@
     margin-bottom: 10px;
     width: 60%;
     height: 60%;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-3 img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product-3 h2 */
 .product-3 h2 {
     color: white;
     text-shadow: 3px 3px black;
 }
+/* css code for product-3 button  */
+.product-3 button {
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* css code for product-3 button a */
+.product-3 button a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+
+
+/* css code for screen 1099 width */
+@media (max-width:1099px) {
+    .product-1 button {
+        width: 40%;
+    }
+    .product-2 button {
+        width: 40%;
+    }
+    .product-3 button {
+        width: 40%;
+    }
+}
+
+
+
+/* css code for screen 839 width */
+@media (max-width:839px) {
+    .product-1 button {
+        width: 50%;
+    }
+    .product-2 button {
+        width: 50%;
+    }
+    .product-3 button {
+        width: 50%;
+    }
+}
+
+
+/* css code for screen 687 width */
+@media (max-width:687px) {
+    .product-1 button {
+        width: 60%;
+    }
+    .product-2 button {
+        width: 60%;
+    }
+    .product-3 button {
+        width: 60%;
+    }
+}
 
 
 
@@ -113,6 +211,17 @@
     .product-1 {
         margin-bottom: 10px;
         border-bottom: 2px solid black;
+    }
+
+    /* css code for the buttons */
+    .product-1 button {
+        width: 40%;
+    }
+    .product-2 button {
+        width: 40%;
+    }
+    .product-3 button {
+        width: 40%;
     }
 
     /* css code for the second product */

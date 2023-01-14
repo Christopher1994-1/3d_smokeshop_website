@@ -1,10 +1,13 @@
 /* css code for the 'our best products' header */
 #our-best-products-h1 {
-    background: white;
     margin: auto;
+    color: white;
+    text-shadow: 3px 3px black;
     width: 60%;
     text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1556388275-bb5585725aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
 }
+
 
 /* css code for the main container for all products */
 .our-best-products {
@@ -42,6 +45,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-one img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 1 paragraph */
 .product-one p {
@@ -74,6 +82,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-two img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 2 paragraph */
 .product-two p {
@@ -108,6 +121,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-three img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 3 paragraph */
 .product-three p {
@@ -148,6 +166,7 @@
     display: flex;
     margin: auto;
     text-align: center;
+    border-top: 2px solid rgb(255, 255, 255);
 }
 
 
@@ -164,6 +183,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-four img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 4 paragraph */
 .product-four p {
@@ -196,6 +220,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-five img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 2 paragraph */
 .product-five p {
@@ -230,6 +259,11 @@
     height: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: transform .3s;
+}
+/* css code for the image hover effect */
+.product-six img:hover {
+    transform: scale(1.1);
 }
 /* css code for the product 3 paragraph */
 .product-six p {
@@ -388,6 +422,27 @@
         width: 100%;
     }
     .product-three {
+        width: 100%;
+    }
+
+    .product-one img {
+        width: 100%;
+    }
+    .product-two img {
+        width: 100%;
+    }
+    .product-three img {
+        width: 100%;
+    }
+
+
+    .product-four img {
+        width: 100%;
+    }
+    .product-five img {
+        width: 100%;
+    }
+    .product-six img {
         width: 100%;
     }
 

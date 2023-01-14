@@ -222,7 +222,8 @@
         color: white;
         border: none;
         border-radius: 20px;
-        padding: 5px;
+        padding: 15px;
+        width: 50%;
         margin-top: 0;
         font-size: 10px;
         font-weight: bold;

@@ -1,0 +1,58 @@
+/* css code for our locations thing */
+.our-locations {
+    width: 60%;
+    background: rgb(83, 83, 83);
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(30, 30, 30, 0.4), 0px 0px 20px 10px rgba(0, 0, 255, 0.3);
+}
+
+
+/* css code for the iframe thing */
+.our-locations iframe {
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+/* css code for locations and business hours */
+.our-times {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+/* css code for the locations and business hours h2 */
+.our-times h2 {
+    margin-bottom: 3%;
+    font-size: 100%;
+}
+/* css code for the loctations and business hours a */
+.our-times h2 a {
+    color: white;
+}
+/* css code for the loctations and business hours a hover effect */
+.our-times h2 a:hover {
+    color: rgb(65, 38, 165);
+}
+
+
+
+/* css code for different screens */
+@media(max-width:591px) {
+    /* css code for our locations main container */
+    .our-locations {
+        width: 80%;
+        height: 60%;
+    }
+
+    /* css code for the iframe thing */
+    .our-locations iframe {
+        width: 90%;
+        height: 90%;
+    }
+}

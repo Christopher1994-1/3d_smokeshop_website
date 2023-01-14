@@ -4,21 +4,24 @@ from django.http import HttpResponseRedirect
 from django.contrib import messages
 from datetime import datetime, timedelta
 from django.http import JsonResponse
+import datetime
 
 
 # Create all the functions
 
 # Edit code below to change ad offer time. hour=(how many hours the offer is vaild for)
-end_time = datetime.now() + timedelta(hours=24)
+end_time = datetime.datetime.now() + timedelta(hours=24)
 
 def get_remaining_time(request):
-    time_left = end_time - datetime.now()
+    time_left = end_time - datetime.datetime.now()
     hours, remainder = divmod(time_left.seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
     time_left_str = "{:02}:{:02}:{:02}".format(hours, minutes, seconds)
     return JsonResponse({'time_left': time_left_str})
 
 
+# Getting current year
+current_year = str(datetime.datetime.now().year)
 
 
 
@@ -46,6 +49,7 @@ def home(request):
     
     return render(request, 'home.html', {
         'form':form,
+        'current_year': current_year,
     })
     
     
@@ -81,5 +85,6 @@ def test(request):
     
     return render(request, 'test.html', {
         "form":form,
+        'current_year': current_year,
     })
     

@@ -1,0 +1,350 @@
+/* css code for the main container for image and stuff */
+.enjoy {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* css code for the image */
+.enjoy img {
+    width: 100%;
+}
+
+
+
+/* css code for the stuff inside image  */
+.enjoy-inner-stuff {
+    width: 40%;
+    padding: 20px;
+    position: relative;
+    bottom: 370px;
+    left: 80px;
+    height: 0%;
+}
+
+
+/* css code for the stuff inside image, header */
+.enjoy-inner-stuff h1 {
+    margin-bottom: 2%;
+    color: white;
+}
+
+
+/* css code for the stuff inside image paragraph */
+.enjoy-inner-stuff p {
+    margin-bottom: 5%;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* css code for the stuff inside image button */
+.enjoy-inner-stuff button {
+    margin-top: 15px;
+    padding: 20px;
+    width: 30%;
+    cursor: pointer;
+    background: white;
+    border-radius: 20px;
+}
+/* css code for image button hover effect */
+.enjoy-inner-stuff button:hover {
+    background: rgb(189, 188, 188);
+
+}
+
+/* css code for the stuff inside image button a */
+.enjoy-inner-stuff button a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* CSS CODE FOR SMALLER SIZE SCREENS */
+
+
+/* css code for screen size 1084 */
+@media(max-width:1084px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 340px;
+        left: 80px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 2%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 5%;
+        color: white;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 20px;
+        width: 50%;
+        cursor: pointer;
+        background: white;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+
+
+/* css code for screen size 996 */
+@media(max-width:996px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 310px;
+        left: 80px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 2%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 5%;
+        color: white;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 20px;
+        width: 50%;
+        cursor: pointer;
+        background: white;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+
+
+/* css code for screen size 863 */
+@media(max-width:863px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 280px;
+        left: 65px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 4%;
+        font-size: 25px;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 5%;
+        color: white;
+        font-size: 13px;
+        width: 80%;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 20px;
+        width: 50%;
+        cursor: pointer;
+        background: white;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+
+/* css code for screen size 746 */
+@media(max-width:746px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 240px;
+        left: 40px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 4%;
+        font-size: 100%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 5%;
+        color: white;
+        font-size: 75%;
+        width: 80%;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 15px;
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+/* css code for screen size 675 */
+@media(max-width:675px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 230px;
+        left: 40px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 4%;
+        font-size: 100%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 2%;
+        color: white;
+        font-size: 75%;
+        width: 80%;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 15px;
+        width: 70%;
+    }
+
+}
+
+
+
+
+/* css code for screen size 608 */
+@media(max-width:608px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 190px;
+        left: 10px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 4%;
+        font-size: 100%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 2%;
+        color: white;
+        font-size: 55%;
+        width: 100%;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 10px;
+        width: 60%;
+    }
+
+    /* css code for the stuff inside image button font size */
+    .enjoy-inner-stuff button a {
+        font-size: 100%;
+    }
+
+}
+
+
+
+
+/* css code for screen size 591 */
+@media(max-width:591px) {
+    /* css code for the stuff inside image  */
+    .enjoy-inner-stuff {
+        bottom: 180px;
+        left: 10px;
+    }
+
+    /* css code for the stuff inside image, header */
+    .enjoy-inner-stuff h1 {
+        margin-bottom: 4%;
+        font-size: 100%;
+        color: white;
+    }
+
+
+    /* css code for the stuff inside image paragraph */
+    .enjoy-inner-stuff p {
+        margin-bottom: 2%;
+        color: white;
+        font-size: 55%;
+        width: 100%;
+    }
+
+
+    /* css code for the stuff inside image button */
+    .enjoy-inner-stuff button {
+        margin-top: 15px;
+        padding: 10px;
+        width: 60%;
+    }
+
+    /* css code for the stuff inside image button font size */
+    .enjoy-inner-stuff button a {
+        font-size: 100%;
+    }
+
+}
